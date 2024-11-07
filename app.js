@@ -174,7 +174,7 @@ function displayMenuItems(menuItems){
 outerBorders.forEach((x)=>{
     x.addEventListener("click",(e)=>{
         removeBorder();
-        e.target.parentElement.classList.toggle("show-border");
+        e.currentTarget.classList.toggle("show-border");
     
         
     })
